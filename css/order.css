@@ -1,0 +1,103 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 May 2023, 11:07:08 pm
+    Author     : Cia Liang
+*/
+
+table.order th, td.cust, td.image, td.product, td.qty, td.price, td.refundz {
+    border:1px solid black;
+    text-align:center;
+}
+
+div.SearchBar{
+    height:40px;
+}
+
+input[type=text]{
+    position: absolute;
+    top:233px;
+    font-family:cursive;
+    right:370px;
+    background:none;
+    cursor: text;
+    height:40px;
+    width:196px;
+    border-radius: 50px 50px;
+    font-size:16px;
+    border:2px solid gray;
+}
+
+input[type=text]:active{
+    background: none;
+    cursor: text;
+    height:40px;
+    border-radius: 50px 50px;
+    font-size:16px;
+    border:2px solid black;
+}
+
+.searchBtn{
+    border:2px solid gray;
+    border-radius: 150px 150px 150px 150px;
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:235px;
+    right:300px;
+    background:none;
+    cursor:pointer;
+    color:gray;
+    transition:2s;
+}
+
+.searchBtn:hover{
+    cursor:pointer;
+    color:blue;
+    border:2px solid black;
+}
+
+div.back{
+    height:60px;
+}
+
+div.emptyorder{
+    height:500px;
+}
+
+div.body{
+    height:auto;
+}
+
+div.foot{
+    height:300px;
+}
+
+.refundBtn{
+   height:25px;
+   background:red;
+   border:black;
+   color:white;
+   cursor:pointer;
+   transition:2s;
+}
+
+.refundBtn:hover{
+    background:black;
+    cursor:pointer;
+    color:red;
+}
+
+div.error{
+    border:red;
+    background:lightpink;
+    width:69%;
+}
+
+div.refunded{
+    border:blue;
+    background:lightblue;
+    width:69%;
+}
